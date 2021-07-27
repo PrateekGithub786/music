@@ -1,0 +1,24 @@
+.heading{
+    width: 100%;
+    margin: 0px;
+    font-size: medium;
+}
+
+span{
+    font-size: small !important;
+    color: red;
+}
+
+body{
+    background-size: cover;
+}
+
+.song_name{
+    width: 110px;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 50px;
+    box-shadow: 2px 2px 7px grey;
+}
