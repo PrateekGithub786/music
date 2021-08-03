@@ -1,6 +1,12 @@
 music1 = "";
 music2 = "";
 
+leftWristx = 0;
+leftWristy = 0;
+
+rightWristx = 0;
+rightWristy = 0;
+
 function setup(){
     canvas = createCanvas(600, 500);
     canvas.center();
