@@ -10,8 +10,8 @@ rightWristy = 0;
 scoreRightWrist = 0;
 scoreLeftWrist = 0;
 
-statusSong1 = 0;
-statusSong2 = 0;
+statusSong1 = "";
+statusSong2 = "";
 
 function setup(){
     canvas = createCanvas(600, 500);
@@ -64,7 +64,7 @@ function draw(){
         circle(leftWristx, leftWristy, 20);
         music2.stop();
 
-        if(statusSong1 = false){
+        if(statusSong1 == false){
             music1.play();
             document.getElementById("name_of_song").innerHTML = " " + "Harry Potter Theme";
         }
