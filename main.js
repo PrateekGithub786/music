@@ -71,4 +71,15 @@ function draw(){
     
     }
 
+    if(scoreRightWrist > 0.2){
+        circle(rightWristx, rightWristy, 20);
+        music1.stop();
+
+        if(statusSong2 == false){
+            music2.play();
+            document.getElementById("name_of_song").innerHTML = " " + "Peter Pan";
+        }
+    
+    }
+
 }
